@@ -12,7 +12,6 @@ class Auth extends Component {
     render () {
         return [
             <button key="vk" data-type="vk" onClick={this.auth}>Вконтакте</button>,
-            <button key="facebook" data-type="facebook" onClick={this.auth}>Facebook</button >
         ]
     };
 }
